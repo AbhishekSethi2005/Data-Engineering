@@ -1,0 +1,3 @@
+ID,OrderID,CustomerID,CustomerName,Segment,Country,City,State,Sales,Quantity,Discount,Profit
+1,CA-2016-152156,CG-12520,Claire Gute,Consumer,United States,New York,New York,320.0,2,0.0,55.0
+99999,NEW-2026-0001,ZZ-99999,New Customer,Consumer,United States,Chicago,Illinois,180.0,1,0.0,30.0

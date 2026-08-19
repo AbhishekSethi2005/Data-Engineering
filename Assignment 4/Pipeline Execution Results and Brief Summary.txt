@@ -1,0 +1,18 @@
+Azure Data Factory Pipeline Run
+
+Pipeline: EmployeePipeline
+Status: Completed successfully
+
+Source location: Azure Blob Storage — source-data/employees.csv
+Activities completed:
+- Get Metadata
+- Copy Data
+
+Destination location: Azure Blob Storage — output-data/employees_copy.csv
+
+Run outcome:
+The metadata check completed, and the CSV was transferred to the destination container without errors.
+
+Summary
+
+This implementation uses Azure Data Factory to move an employee CSV between Blob Storage containers. The pipeline first inspects the source file with Get Metadata, then copies it to the designated output path with Copy Data. The successful run demonstrates a basic cloud ingestion flow with source validation and automated file movement.
